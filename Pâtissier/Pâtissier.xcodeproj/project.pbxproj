@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1AD3EC20E78C57003AED8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1AD3EB20E78C57003AED8E /* AppDelegate.swift */; };
+		BF1AD3EE20E78C57003AED8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1AD3ED20E78C57003AED8E /* ViewController.swift */; };
+		BF1AD3F120E78C57003AED8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1AD3EF20E78C57003AED8E /* Main.storyboard */; };
+		BF1AD3F320E78C5B003AED8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1AD3F220E78C5B003AED8E /* Assets.xcassets */; };
+		BF1AD3F620E78C5B003AED8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1AD3F420E78C5B003AED8E /* LaunchScreen.storyboard */; };
+		BF1AD40120E78C5B003AED8E /* Pa_tissierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1AD40020E78C5B003AED8E /* Pa_tissierTests.swift */; };
+		BF1AD40C20E78C5B003AED8E /* Pa_tissierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1AD40B20E78C5B003AED8E /* Pa_tissierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF1AD3FD20E78C5B003AED8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1AD3E020E78C57003AED8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1AD3E720E78C57003AED8E;
+			remoteInfo = "Pâtissier";
+		};
+		BF1AD40820E78C5B003AED8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1AD3E020E78C57003AED8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1AD3E720E78C57003AED8E;
+			remoteInfo = "Pâtissier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF1AD3E820E78C57003AED8E /* Pâtissier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pâtissier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1AD3EB20E78C57003AED8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF1AD3ED20E78C57003AED8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF1AD3F020E78C57003AED8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF1AD3F220E78C5B003AED8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF1AD3F520E78C5B003AED8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF1AD3F720E78C5B003AED8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1AD3FC20E78C5B003AED8E /* PâtissierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PâtissierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1AD40020E78C5B003AED8E /* Pa_tissierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pa_tissierTests.swift; sourceTree = "<group>"; };
+		BF1AD40220E78C5B003AED8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1AD40720E78C5B003AED8E /* PâtissierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PâtissierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1AD40B20E78C5B003AED8E /* Pa_tissierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pa_tissierUITests.swift; sourceTree = "<group>"; };
+		BF1AD40D20E78C5B003AED8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1AD3E520E78C57003AED8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1AD3F920E78C5B003AED8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1AD40420E78C5B003AED8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1AD3DF20E78C57003AED8E = {
+			isa = PBXGroup;
+			children = (
+				BF1AD3EA20E78C57003AED8E /* Pâtissier */,
+				BF1AD3FF20E78C5B003AED8E /* PâtissierTests */,
+				BF1AD40A20E78C5B003AED8E /* PâtissierUITests */,
+				BF1AD3E920E78C57003AED8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1AD3E920E78C57003AED8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1AD3E820E78C57003AED8E /* Pâtissier.app */,
+				BF1AD3FC20E78C5B003AED8E /* PâtissierTests.xctest */,
+				BF1AD40720E78C5B003AED8E /* PâtissierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1AD3EA20E78C57003AED8E /* Pâtissier */ = {
+			isa = PBXGroup;
+			children = (
+				BF1AD3EB20E78C57003AED8E /* AppDelegate.swift */,
+				BF1AD3ED20E78C57003AED8E /* ViewController.swift */,
+				BF1AD3EF20E78C57003AED8E /* Main.storyboard */,
+				BF1AD3F220E78C5B003AED8E /* Assets.xcassets */,
+				BF1AD3F420E78C5B003AED8E /* LaunchScreen.storyboard */,
+				BF1AD3F720E78C5B003AED8E /* Info.plist */,
+			);
+			path = "Pâtissier";
+			sourceTree = "<group>";
+		};
+		BF1AD3FF20E78C5B003AED8E /* PâtissierTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF1AD40020E78C5B003AED8E /* Pa_tissierTests.swift */,
+				BF1AD40220E78C5B003AED8E /* Info.plist */,
+			);
+			path = "PâtissierTests";
+			sourceTree = "<group>";
+		};
+		BF1AD40A20E78C5B003AED8E /* PâtissierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF1AD40B20E78C5B003AED8E /* Pa_tissierUITests.swift */,
+				BF1AD40D20E78C5B003AED8E /* Info.plist */,
+			);
+			path = "PâtissierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1AD3E720E78C57003AED8E /* Pâtissier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1AD41020E78C5B003AED8E /* Build configuration list for PBXNativeTarget "Pâtissier" */;
+			buildPhases = (
+				BF1AD3E420E78C57003AED8E /* Sources */,
+				BF1AD3E520E78C57003AED8E /* Frameworks */,
+				BF1AD3E620E78C57003AED8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pâtissier";
+			productName = "Pâtissier";
+			productReference = BF1AD3E820E78C57003AED8E /* Pâtissier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF1AD3FB20E78C5B003AED8E /* PâtissierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1AD41320E78C5B003AED8E /* Build configuration list for PBXNativeTarget "PâtissierTests" */;
+			buildPhases = (
+				BF1AD3F820E78C5B003AED8E /* Sources */,
+				BF1AD3F920E78C5B003AED8E /* Frameworks */,
+				BF1AD3FA20E78C5B003AED8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF1AD3FE20E78C5B003AED8E /* PBXTargetDependency */,
+			);
+			name = "PâtissierTests";
+			productName = "PâtissierTests";
+			productReference = BF1AD3FC20E78C5B003AED8E /* PâtissierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF1AD40620E78C5B003AED8E /* PâtissierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1AD41620E78C5B003AED8E /* Build configuration list for PBXNativeTarget "PâtissierUITests" */;
+			buildPhases = (
+				BF1AD40320E78C5B003AED8E /* Sources */,
+				BF1AD40420E78C5B003AED8E /* Frameworks */,
+				BF1AD40520E78C5B003AED8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF1AD40920E78C5B003AED8E /* PBXTargetDependency */,
+			);
+			name = "PâtissierUITests";
+			productName = "PâtissierUITests";
+			productReference = BF1AD40720E78C5B003AED8E /* PâtissierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1AD3E020E78C57003AED8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "chang-che-wei";
+				TargetAttributes = {
+					BF1AD3E720E78C57003AED8E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BF1AD3FB20E78C5B003AED8E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BF1AD3E720E78C57003AED8E;
+					};
+					BF1AD40620E78C5B003AED8E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BF1AD3E720E78C57003AED8E;
+					};
+				};
+			};
+			buildConfigurationList = BF1AD3E320E78C57003AED8E /* Build configuration list for PBXProject "Pâtissier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF1AD3DF20E78C57003AED8E;
+			productRefGroup = BF1AD3E920E78C57003AED8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1AD3E720E78C57003AED8E /* Pâtissier */,
+				BF1AD3FB20E78C5B003AED8E /* PâtissierTests */,
+				BF1AD40620E78C5B003AED8E /* PâtissierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1AD3E620E78C57003AED8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1AD3F620E78C5B003AED8E /* LaunchScreen.storyboard in Resources */,
+				BF1AD3F320E78C5B003AED8E /* Assets.xcassets in Resources */,
+				BF1AD3F120E78C57003AED8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1AD3FA20E78C5B003AED8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1AD40520E78C5B003AED8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1AD3E420E78C57003AED8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1AD3EE20E78C57003AED8E /* ViewController.swift in Sources */,
+				BF1AD3EC20E78C57003AED8E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1AD3F820E78C5B003AED8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1AD40120E78C5B003AED8E /* Pa_tissierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1AD40320E78C5B003AED8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1AD40C20E78C5B003AED8E /* Pa_tissierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF1AD3FE20E78C5B003AED8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1AD3E720E78C57003AED8E /* Pâtissier */;
+			targetProxy = BF1AD3FD20E78C5B003AED8E /* PBXContainerItemProxy */;
+		};
+		BF1AD40920E78C5B003AED8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1AD3E720E78C57003AED8E /* Pâtissier */;
+			targetProxy = BF1AD40820E78C5B003AED8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF1AD3EF20E78C57003AED8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1AD3F020E78C57003AED8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF1AD3F420E78C5B003AED8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1AD3F520E78C5B003AED8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF1AD40E20E78C5B003AED8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF1AD40F20E78C5B003AED8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1AD41120E78C5B003AED8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pâtissier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS.Pa-tissier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF1AD41220E78C5B003AED8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pâtissier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS.Pa-tissier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF1AD41420E78C5B003AED8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PâtissierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS.Pa-tissierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pâtissier.app/Pâtissier";
+			};
+			name = Debug;
+		};
+		BF1AD41520E78C5B003AED8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PâtissierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS.Pa-tissierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pâtissier.app/Pâtissier";
+			};
+			name = Release;
+		};
+		BF1AD41720E78C5B003AED8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PâtissierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS.Pa-tissierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pâtissier";
+			};
+			name = Debug;
+		};
+		BF1AD41820E78C5B003AED8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PâtissierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS.Pa-tissierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pâtissier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1AD3E320E78C57003AED8E /* Build configuration list for PBXProject "Pâtissier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1AD40E20E78C5B003AED8E /* Debug */,
+				BF1AD40F20E78C5B003AED8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1AD41020E78C5B003AED8E /* Build configuration list for PBXNativeTarget "Pâtissier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1AD41120E78C5B003AED8E /* Debug */,
+				BF1AD41220E78C5B003AED8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1AD41320E78C5B003AED8E /* Build configuration list for PBXNativeTarget "PâtissierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1AD41420E78C5B003AED8E /* Debug */,
+				BF1AD41520E78C5B003AED8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1AD41620E78C5B003AED8E /* Build configuration list for PBXNativeTarget "PâtissierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1AD41720E78C5B003AED8E /* Debug */,
+				BF1AD41820E78C5B003AED8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1AD3E020E78C57003AED8E /* Project object */;
+}
